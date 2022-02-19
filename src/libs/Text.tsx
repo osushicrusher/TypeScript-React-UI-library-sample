@@ -12,6 +12,6 @@ type Props = {
     className?: string
 }
 
-export const Text: VFC<Props> = ({ text }) => {
+export const Text: VFC<Props> = ({ text, className }) => {
     return <Wrapper className={className}>{ text }</Wrapper>
 }
